@@ -20,7 +20,7 @@ See deployment for notes on how to deploy the project on a GPU-enabled HPC syste
 ## Overall Deployment Framework
 The following diagram shows GPU Power Control & Counters Collection Framework.
 
-![picture alt](imgs/Final model_new.png) "GPU Power Control & Counters Collection Framework")
+![alt text](imgs/Final model_new.png) "GPU Power Control & Counters Collection Framework")
 
 The framework consists of three modules:
 1.  Test module includes two directories (applications and data), two scripts (app_loadscaling and app_run2run), and analyze_data. 
