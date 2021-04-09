@@ -49,7 +49,7 @@ In order to generate the GPU metrics data and then perform different aspects of 
 
 ### clone the repository on the target GPU-enabled HPC node:
 ```
-git clone https://github.com/nsfcac/gpupowermodel.git
+git clone https://github.com/AnonymousGit21/gpupowermodel.git
 ```
 
 ### Configuration of Utility Functions
@@ -57,17 +57,17 @@ git clone https://github.com/nsfcac/gpupowermodel.git
 #### GPU Control parameters
 * edit control script and enable/disable different control functions (e.g. power limit, frequency)
 ```
-vi gpupower/utility/control
+vi gpupowermodel/utility/control
 ```
 #### GPU Profile Parameters
 * edit profile script and change profile parameters (e.g. nvidia-smi sampling rate, adding/removing GPU metrics)
 ```
-vi gpupower/utility/profile
+vi gpupowermodel/utility/profile
 ```
 
 ### Data Generation
 ```
-cd gpupower/test
+cd gpupowermodel/test
 ```
 * GPU metrics data collection for run-to-run application
 ```
@@ -81,7 +81,7 @@ cd gpupower/test
 
 ### Data Analysis
 
-* Edit analyze_data.py available at: gpupower/test
+* Edit analyze_data.py available at: gpupowermodel/test
 * Run analyze_data.py to generate power analysis plots:
 ```
 python3 analyze_data.py
@@ -98,23 +98,23 @@ Further contributions to enhance and extend this work are welcome.
 
 ## Technical Support
 
-In case of any technical issue in reproducing these results, you are welcome to contact Texas Tech University (TTU) developer: ghazanfar.ali@ttu.edu  
+In case of any technical issue in reproducing these results, you are welcome to contact XXX (XXX) developer: XXX  
 
 
 ## Authors
 
-* Mr. Ghazanfar Ali Sanpal, PhD student, Texas Tech University
+* X. XXX, XXX, XXX
 
-* Dr. Sridutt Bhalachandra, Lawrence Berkeley National Laboratory 
+* X. XXX, XXX 
 
-* Dr. Nicholas Wright, Lawrence Berkeley National Laboratory
+* X. XXX, XXX
 
 
 ##  License
 
-This project is licensed under [BSD 3-Clause License](https://github.com/nsfcac/Nagios-Redfish-API-Integration/blob/master/LICENSE)
+This project is licensed under XXX.
 
 
 ## Acknowledgments
 
-The National Energy Research Scientific Computing Center (NERSC) is a U.S. Department of Energy Office of Science User Facility operated under Contract No. DEAC02-05CH11231. Results presented in this paper were obtained using the Chameleon testbed supported by the National Science Foundation.
+XXX Results presented in this paper were obtained using the XXX supported by the XXX.
